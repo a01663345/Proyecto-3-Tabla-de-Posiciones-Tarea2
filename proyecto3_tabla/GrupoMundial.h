@@ -21,7 +21,7 @@ public:
     void registrarPartido(const string& local, int gLocal,
                           const string& visitante, int gVisitante);
     void mostrarTabla() const;
-    bool yaJugaron(string e1, string e2) const;
+    bool yaJugaron(const string& e1, const string& e2) const;
 };
 
 #endif
